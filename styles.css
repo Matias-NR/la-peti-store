@@ -1,0 +1,350 @@
+/* GENERALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header {
+  background-color: green;
+  border-bottom: solid 4px black;
+}
+header img {
+  width: 120px;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+.Lapety {
+  color: rgb(97, 71, 37);
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-family: "Lily Script One", cursive;
+  font-size: 100px;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+header nav ul li a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+header nav ul li a:hover {
+  text-shadow: 3px 3px 2px white;
+}
+
+/* MAIN INDEX*/
+
+.FondoGeneral {
+  background-color: beige;
+}
+
+.imagendefondo {
+  width: 100%;
+  height: 400px;
+  background-image: url("./assets/imagenes/Maceta\ calavera\ 2.jpg");
+  background-size: 100% 500px;
+}
+.imagendefondo p {
+  font-size: 200px;
+  text-align: center;
+  color: rgb(97, 71, 37);
+  text-shadow: 2px 2px 2px black;
+}
+
+.textoprincipal {
+  background-color: green;
+  text-align: center;
+}
+
+.textoprincipal h2 {
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+  padding: 30px;
+}
+
+.textoprincipal p {
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+.articulos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Bob {
+  padding: 30px;
+  width: 500px;
+}
+
+.Bob div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.Bob h5 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.Bob a {
+  color: black;
+  background-color: greenyellow;
+  width: 100%;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+.Mafalda {
+  padding: 30px;
+  width: 500px;
+}
+.Mafalda div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.Mafalda h5 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.Mafalda a {
+  color: black;
+  background-color: greenyellow;
+  width: 100%;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* MAIN PRODUCTOS */
+
+.MacetasPersonalizadas {
+  font-size: 60px;
+  color: rgb(97, 71, 37);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.productos {
+  display: flex;
+  flex-grow: row wrap;
+  justify-content: space-around;
+}
+
+.hojas {
+  padding: 30px;
+  width: 350px;
+}
+
+.hojas div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.hojas h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.hojas p {
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+
+.flor {
+  padding: 30px;
+  width: 350px;
+}
+
+.flor div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.flor h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.flor p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+.calavera {
+  padding: 30px;
+  width: 350px;
+}
+
+.calavera div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.calavera h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.calavera p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+.Bob2 {
+  padding: 30px;
+  width: 350px;
+}
+
+.Bob2 div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.Bob2 h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.Bob2 p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+.Frida {
+  padding: 30px;
+  width: 350px;
+}
+
+.Frida div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.Frida h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.Frida p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+.Mafalda2 {
+  padding: 30px;
+  width: 350px;
+}
+
+.Mafalda2 div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.Mafalda2 h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.Mafalda2 p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* MAIN TIPS*/
+.titulotips {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  padding: 12px;
+}
+.cuidados {
+  width: 400px;
+  padding: 50px;
+}
+.cuidados h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.riegos {
+  width: 400px;
+  padding: 50px;
+}
+.riegos h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* MAIN CONTACTO */
+
+.titulocontacto {
+  color: black;
+  text-align: center;
+  padding: 12px;
+}
+.redes {
+  color: green;
+  text-align: center;
+  font-size: 30px;
+}
+/*FOOTER*/
+.footer {
+  background-color: green;
+  height: 100px;
+}
+.footer p {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+}
